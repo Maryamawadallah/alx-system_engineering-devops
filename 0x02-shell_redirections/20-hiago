@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Enter a string:"
+read input_str
+
+output_str=$(echo "$input_str" | tr -d "cC")
+
+echo "Input string: $input_str"
+echo "Output string: $output_str"
